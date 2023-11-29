@@ -1,0 +1,41 @@
+#BOX1{
+    background: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 107px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#BOX1:hover{
+    background-color: rgb(118, 35, 35);
+}
+#BOX1:active{
+    background-color: rgb(255, 0, 0);
+}
+#BOX2{
+    height: 36px;
+    width: 107px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: box-shadow 1s;
+}
+#BOX2:hover{
+    box-shadow: 5px 5px 10px rgb(124, 107, 247);
+}
+#BOX2:active{
+    background: rgb(30, 0, 255);
+}
+#BOX3{
+    background: cornflowerblue;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 107px;
+    border-radius: 20px;
+    cursor: pointer; 
+    transition: box-shadow 1s;
+}
+#BOX3:hover{
+    box-shadow: 5px 5px 10px grey;
+}
